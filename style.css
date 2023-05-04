@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}  
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Barra de navegacion*/
+.navbar {
+    padding: 5px;
+    background-color: #3d4145;
+    color:#fff; 
+    font-size: 15px;
+   
+}
+
+.link1 {
+    color:#fff;
+}
+
+.link2 {
+    color: #808080;
+}
+.link5 {
+    color: rgb(41,167,68)
+}
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bs {
+    color:#fff;
+    font-size: 22px;
+}
+
+ /*estilos generales*/
+ section {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ /*texto sobre imagen*/
+
+ .hero {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: end;
+    text-align: end;
+    justify-content: center;
+
+ }
+ .lulu {
+    filter:brightness(50%);
+ }
+
+ .texto {
+    display: flex;
+    flex-direction: column;
+    top:2px;
+    left: 100px;
+    margin-top: 300px;  
+    margin-left: 600px;
+    margin-right: 100px;
+     
+ }
+
+ .texto .conf {
+    font-size: 30px;
+    color:#fff;
+    text-align: right;
+    font-size:30px;
+ }
+
+ .texto .aires {
+    color: #fff;
+    text-align: right; 
+ }
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: end;
+    margin:10px;
+    height: 50px; 
+}
+
+ .boton1 {
+    background-color: rgba(255,255,255,0);
+    border: white 1px solid;
+    color: #fff;
+    font-size: 15px;
+    margin-right: 15px; 
+ }
+
+ .boton2 {
+    background-color: rgb(41,167,68);
+    color:#fff;
+    border: none;
+    font-size: 15px;      
+ }
+
+/*conoce a los oradores*/
+.conoce-ora {
+    color:#3355ff;
+    font-size: 20px;
+}
+
+/*imagenes de las card*/
+.card-body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color:#808080;
+}
+
+.javascript {
+    color: #111;
+    background: yellow;
+}
+.react {
+    color:#fff;
+    background: #3355ff;
+}
+.negocios {
+    color:#fff;
+    background: #3d4145;
+}
+.startup {
+    color:#fff;
+    background: red;
+}
+.card-title {
+    color:#111;
+}
+
+/*imagen y texto*/
+.boton3 {
+    border-color: #fff;
+    font-size: #fff;
+}
+
+/*formulario imput*/
+.boton4 {
+    background: rgb(41,167,68);
+    height: 35px;
+}
+.nota {
+    color:#808080;
+}
+.nota1 {
+    color:#808080
+}
+textarea {
+    height: 120px;
+}
+
+/*Pie de página*/
+.nav {
+    display: flex;
+    background: rgb(42, 65, 84);
+    height: 80px;
+    align-content: center;
+    margin-top: 15px;
+    justify-content: center;
+    font-size: 15px;
+    
+}
+.link6 {
+    color:#fff;
+    
+}
+
+
+
+
+
+
+
+/*Adaptable (Responsivo)*/
+@media screen and (max-width: 767px) {
+.navbar-brand {
+    display:none;
+    }
+.container {
+    width:200px;
+}
+
+.texto .conf {
+    font-size: 12px;
+}
+.aires {
+    font-size: 10px;
+}
+
+
+.botones {
+    margin-bottom: 30px;
+}
+.boton1{
+    font-size: 10px;
+   
+}
+.boton2{
+    font-size: 10px;
+}
+
+.nav {
+    flex-direction: row;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+.texto {
+    flex-direction: column;
+    top:2px;
+    left: 1px;
+    margin-top: 1px;  
+    margin-left: 1px;
+    margin-right: 1px;  
+    
+}
+
+@media screen and (min-width: 1200px) {
+
+
+}
+
+
+
+
+        
+        
+     
+
+
