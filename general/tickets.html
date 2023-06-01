@@ -88,7 +88,7 @@
     </div>
   </div>
   <!--formulario-->
-  <section class="" id="section-forms">
+  <section class="" id="formul" id="section-forms">
     <div class="container text-center">
       <div class="container-fluid">
         <p class="nota mt-2 mb-0 p-0">VENTA</p>
@@ -106,26 +106,26 @@
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo">
           </div>
           <div class="col-md-6 mt-2 mb-1">
-            <label class="cantidad">Cantidad</label>
+            <label for="cant_entradas" class="cantidad">Cantidad</label>
             <input type="text" class="form-control" id="cant_entradas" placeholder="cantidad">
           </div>
           <div class="col-md-6 mt-2 mb-1">
-            <label class="categoria" for="opción1">Categoría</label>
-            <select class="form-select" id="inputGroupSelect01">
-              <option selected value="1">Estudiante</option>
+            <label for="categoria" class="categoria">Categoría</label>
+            <select name="categoria" id="categoria"class="form-select" id="inputGroupSelect01">
+              <option value="1">Estudiante</option>
               <option value="2">Trainne</option>
               <option value="3">Junior</option>
             </select>
           </div>
           <div class="col-md-12">
-            <div class="bg-success p-2 text-dark bg-opacity-25">Total a pagar:
+            <div class="bg-success p-2 text-dark bg-opacity-25" id="resultado">Total a pagar: 
           </div>
         </div>
           <div class="col-md-6 mt-2 mb-1">
-            <button type="button" onclick="borrar" class="btn boton4 btn-success w-100 m-0 p-0">Borrar</button>
+            <button type="reset" id="borrar" onclick="borrar()" class="btn boton4 btn-success w-100 m-0 p-0">Borrar</button>
           </div>
           <div class="col-md-6 mt-2 mb-1">
-            <button type="button" onclick="total" class="btn boton4 btn-success w-100 m-0 p-0">Resumen</button>
+            <button type="button" id="resumir" onclick="resumen()" class="btn boton4 btn-success w-100 m-0 p-0">Resumen</button>
           </div>
         </div>
       </div>
